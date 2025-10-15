@@ -1,0 +1,29 @@
+# Virtualenv
+myvenv/
+venv/
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Django
+db.sqlite3
+/media/
+/media/*
+staticfiles/
+*.sqlite3
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Sensitive
+settings_local.py
+*.pem
